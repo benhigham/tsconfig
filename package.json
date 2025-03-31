@@ -1,0 +1,64 @@
+{
+  "name": "@benhigham/tsconfig",
+  "version": "0.0.0",
+  "description": "My personal TypeScript configurations.",
+  "license": "MIT",
+  "homepage": "https://github.com/benhigham/tsconfig#readme",
+  "bugs": {
+    "url": "https://github.com/benhigham/tsconfig/issues/new"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benhigham/tsconfig.git"
+  },
+  "funding": "https://github.com/sponsors/benhigham",
+  "author": {
+    "name": "Ben Higham",
+    "url": "https://benhigham.com"
+  },
+  "type": "module",
+  "exports": {
+    ".": "./src/base.json",
+    "./astro.json": "./src/astro.json",
+    "./browser.json": "./src/browser.json",
+    "./next.json": "./src/next.json",
+    "./react-app.json": "./src/react-app.json",
+    "./react-library.json": "./src/react-library.json",
+    "./vite.json": "./src/vite.json"
+  },
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "pnpm@10.7.0",
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "changeset": "changeset",
+    "changeset:status": "changeset status",
+    "version": "changeset version",
+    "release": "changeset publish"
+  },
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "tsconfig",
+    "typescript",
+    "ts",
+    "config",
+    "configuration"
+  ],
+  "devDependencies": {
+    "@benhigham/commitlint-config": "^0.1.0",
+    "@benhigham/prettier-config": "^0.1.0",
+    "@changesets/changelog-github": "^0.5.1",
+    "@changesets/cli": "^2.28.1",
+    "@commitlint/cli": "^19.8.0",
+    "lefthook": "^1.11.6",
+    "prettier": "^3.5.3"
+  },
+  "peerDependencies": {
+    "typescript": ">=5.5"
+  }
+}
