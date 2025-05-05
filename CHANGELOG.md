@@ -1,5 +1,11 @@
 # @benhigham/tsconfig
 
+## 0.1.1
+
+### Patch Changes
+
+- [`9ba5759`](https://github.com/benhigham/tsconfig/commit/9ba57593f4e22b2361473185f5939f0aa02cf16e) Thanks [@benhigham](https://github.com/benhigham)! - Bump dependencies
+
 ## 0.1.0
 
 ### Minor Changes
