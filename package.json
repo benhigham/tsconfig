@@ -60,5 +60,11 @@
   },
   "peerDependencies": {
     "typescript": ">=5.5"
+  },
+  "pnpm": {
+    "overrides": {
+      "ajv": ">=8.18.0",
+      "js-yaml": ">=4.1.1"
+    }
   }
 }
