@@ -54,7 +54,7 @@
     "@benhigham/prettier-config": "^0.1.1",
     "@changesets/changelog-github": "^0.5.1",
     "@changesets/cli": "^2.29.6",
-    "@commitlint/cli": "^19.8.1",
+    "@commitlint/cli": "^20.4.3",
     "lefthook": "^2.0.4",
     "prettier": "^3.6.2"
   },
