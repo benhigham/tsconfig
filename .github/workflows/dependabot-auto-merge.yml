@@ -7,8 +7,8 @@ on:
 permissions: {}
 
 concurrency:
-  group: dependabot-auto-merge-${{ github.event.pull_request.number }}
-  cancel-in-progress: false
+  group: dependabot-auto-merge-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
 
 jobs:
   auto-merge:
