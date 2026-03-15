@@ -1,5 +1,11 @@
 # @benhigham/tsconfig
 
+## 1.0.0
+
+### Major Changes
+
+- [#46](https://github.com/benhigham/tsconfig/pull/46) [`402c08b`](https://github.com/benhigham/tsconfig/commit/402c08b968a25c670fe5463bbc0702377a9e9ed0) Thanks [@benhigham](https://github.com/benhigham)! - Drop Node.js 18 and 20 support (minimum is now >=22)
+
 ## 0.1.1
 
 ### Patch Changes
